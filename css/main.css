@@ -54,3 +54,22 @@ main .main-logo img{
     width: 272px;
     height: 92px;
 }
+main .main-input{
+    width: 530px;
+    margin: 0 auto;
+    margin-bottom: 35px;
+}
+main .main-input-container{
+    width: 525px;
+    border-radius: 100px;
+    border: #dfe1e5 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+main .main-input input{
+    outline: none;
+    border: none;
+    width: 450px;
+    height: 40px;
+}
