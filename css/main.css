@@ -73,3 +73,20 @@ main .main-input input{
     width: 450px;
     height: 40px;
 }
+main .main-input-container:hover{
+    box-shadow: 0 1px 6px 0 #20212447;
+    border-color: #dfe1df00;
+}
+main .main-input .search-icon , .micro-icon{
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: contain;
+    width: 18px;
+    height: 18px;
+}
+main .main-input .search-icon{
+    background-image: url('https://pngimage.net/wp-content/uploads/2018/06/lupa-de-pesquisa-png-6.png');
+}
+main .main-input .micro-icon{
+    background-image: url('https://www.pinclipart.com/picdir/big/32-322562_open-google-microphone-icon-clipart.png');
+}
